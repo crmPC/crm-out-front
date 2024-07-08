@@ -66,7 +66,7 @@ export const useAuthStore = defineStore({
         logout() {},
         async signup(signupData: SignUpData) {
             // const router = useRouter();
-            const result = await ax.post("signup", {
+            const result = await ax.post("user/signup", {
                 login: signupData.login,
                 password: signupData.password,
             });

@@ -78,12 +78,13 @@ export async function login(loginData: authData) {
     try {
         // console.log('fetch to login');
         // console.log('SERVER_URL',SERVER_URL);
-        const result = await ax.post("login", {
+        const result = await ax.post("user/login", {
             login: loginData.login,
             password: loginData.password,
         });
 
         authStore.setAuthData(result.data);
+        console.log(result.data)
         await router.push({ path: "/main" });
     } catch (error) {
         console.error("Ошибка входа:", error);

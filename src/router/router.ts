@@ -125,10 +125,10 @@ export const router = createRouter({
     history: createWebHistory(),
     routes: [
 
-        // {
-        //     path: "/:catchAll(.*)", // Ловим все несуществующие пути
-        //     component: NotFound,
-        // },
+        {
+            path: "/:catchAll(.*)", // Ловим все несуществующие пути
+            component: NotFound,
+        },
         {
             path: "/",
             name: "Страница входа",

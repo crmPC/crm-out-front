@@ -3,7 +3,7 @@ export const User2 = {
 };
 
 export interface User {
-    id_user: number;
+    idUser: number;
 
     login: string;
 
@@ -27,7 +27,7 @@ export enum UserRole {
 }
 
 export interface Person {
-    id_person: number;
+    idPerson: number;
 
     name: string;
 
@@ -45,7 +45,7 @@ export interface Person {
 }
 
 export interface Communication {
-    id_communication?: number;
+    idCommunication?: number;
 
     type?: string;
 
@@ -54,7 +54,7 @@ export interface Communication {
     communicationLinks?: CommunicationLink[];
 }
 export interface AccessUsersCompany {
-    id_access_users_company?: number;
+    idAccessUsersCompany?: number;
 
     fk_id_user?: number;
 
@@ -66,7 +66,7 @@ export interface AccessUsersCompany {
 }
 
 export interface Address {
-    id_address?: number;
+    idAddress?: number;
 
     zipCode?: string;
 
@@ -91,7 +91,7 @@ export enum CommunicationTypeEnum {
 }
 
 export interface CommunicationLink {
-    id_communication_link?: number;
+    idCommunicationLink?: number;
 
     fk_id_communication?: number;
 
@@ -115,7 +115,7 @@ export enum FormatEnum {
 }
 
 export interface Company {
-    id_company?: number;
+    idCompany?: number;
 
     fk_id_domain_ad?: number;
 
@@ -145,7 +145,7 @@ export interface Company {
 }
 
 export interface DomainAd {
-    id_domain_ad?: number;
+    idDomain_ad?: number;
 
     name?: string;
 
@@ -155,7 +155,7 @@ export interface DomainAd {
 }
 
 export interface DomainMail {
-    id_domain_mail?: number;
+    idDomainMail?: number;
 
     fk_id_company?: number;
 
@@ -169,7 +169,7 @@ export interface DomainMail {
 }
 
 export interface JobTitle {
-    id_job_title: number;
+    idJobTitle: number;
 
     name: string;
 
@@ -177,7 +177,7 @@ export interface JobTitle {
 }
 
 export interface Log {
-    id_log?: number;
+    idLog?: number;
 
     fk_id_user?: number;
 
@@ -191,7 +191,7 @@ export interface Log {
 }
 
 export interface Email {
-    id_email?: number;
+    idEmail?: number;
 
     fk_id_domain_mail?: number;
 
@@ -205,7 +205,7 @@ export interface Email {
 }
 
 export interface OfficeEquip {
-    id_office_equip?: number;
+    idOfficeEquip?: number;
 
     fk_id_company?: number;
 
@@ -221,7 +221,7 @@ export interface OfficeEquip {
 }
 
 export interface OfficeEquipTypes {
-    id_office_equip_types?: number;
+    idOfficeEquipTypes?: number;
 
     name?: string;
 
@@ -231,7 +231,7 @@ export interface OfficeEquipTypes {
 }
 
 export interface Pass {
-    id_pass?: number;
+    idPass?: number;
 
     fk_id_person?: number;
 

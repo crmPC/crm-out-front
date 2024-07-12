@@ -605,8 +605,8 @@ export const columns: Columns = {
     address: [
         {
             title: "id",
-            dataIndex: "id_address",
-            key: "id_address",
+            dataIndex: "idAddress",
+            key: "idAddress",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -735,8 +735,8 @@ export const columns: Columns = {
     domainad: [
         {
             title: "id",
-            dataIndex: "id_domain_ad",
-            key: "id_domain_ad",
+            dataIndex: "idDomainAd",
+            key: "idDomainAd",
             dataType: "string",
             sorter: true,
             primary: true,

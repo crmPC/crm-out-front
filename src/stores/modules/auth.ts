@@ -22,8 +22,8 @@ export interface UserWithoutPasswordAndBanreason {
 }
 
 interface AuthDataFromServer {
-    token: string;
-    data: UserWithoutPasswordAndBanreason;
+    data: string;
+    //data: UserWithoutPasswordAndBanreason;
     message: string;
 }
 
@@ -52,9 +52,9 @@ export const useAuthStore = defineStore({
     getters: {},
     actions: {
         setAuthData(data: AuthDataFromServer) {
-            this.data = data.data;
-            this.token = data.token;
-            localStorage.setItem("token", data.token); // Save the token in localStorage
+            // this.data = data.data;
+            this.token = data.data;
+            localStorage.setItem("token", data.data); // Save the token in localStorage
             localStorage.setItem("data", JSON.stringify(data.data));
             // console.log("token set success", data.token);
         },

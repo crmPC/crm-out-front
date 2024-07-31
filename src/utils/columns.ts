@@ -229,8 +229,8 @@ export const columns: Columns = {
     communication: [
         {
             title: "id",
-            dataIndex: "id_communication",
-            key: "id_communication",
+            dataIndex: "idCommunication",
+            key: "idCommunication",
             dataType: "string",
             showOnAdd: false,
             sorter: true,

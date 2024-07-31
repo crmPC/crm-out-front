@@ -49,6 +49,7 @@ export interface Communication {
 
     type?: string;
 
+
     value?: string;
 
     communicationLinks?: CommunicationLink[];

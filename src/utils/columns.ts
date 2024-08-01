@@ -403,7 +403,7 @@ export const columns: Columns = {
     company: [
         {
             title: "id",
-            dataIndex: "id_company",
+            dataIndex: "idCompany",
             key: "id_company",
             dataType: "string",
             sorter: true,

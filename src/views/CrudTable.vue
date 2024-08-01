@@ -79,7 +79,7 @@
                 modelType: props.route,
                 id: record[getPk(props.route) as string],
             };
-            // console.log(query1);
+            console.log(query1);
             router.push({
                 path: "current",
                 query: query1,

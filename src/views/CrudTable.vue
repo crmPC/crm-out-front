@@ -144,6 +144,7 @@
             :loading="loading"
             @change="tableChangeHandler"
             size="small"
+            style="width: 100%; table-layout: auto;" 
         >
             <!--
   -->

@@ -12,8 +12,8 @@ export const columns: Columns = {
     user: [
         {
             title: "id",
-            dataIndex: "id_user",
-            key: "id_user",
+            dataIndex: "idUser",
+            key: "idUser",
             dataType: "string",
             showOnAdd: false,
             sorter: true,
@@ -143,8 +143,8 @@ export const columns: Columns = {
     jobtitle: [
         {
             title: "id",
-            dataIndex: "id_job_title",
-            key: "id_job_title",
+            dataIndex: "idJobTitle",
+            key: "idJobTitle",
             dataType: "string",
             showOnAdd: false,
             sorter: true,
@@ -315,8 +315,8 @@ export const columns: Columns = {
     accessuserscompany: [
         {
             title: "id",
-            dataIndex: "id_access_users_company",
-            key: "id_access_users_company",
+            dataIndex: "idAccessUsersCompany",
+            key: "idAccessUsersCompany",
             showOnAdd: false,
             dataType: "string",
             sorter: true,
@@ -404,7 +404,7 @@ export const columns: Columns = {
         {
             title: "id",
             dataIndex: "idCompany",
-            key: "id_company",
+            key: "idCompany",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -863,8 +863,8 @@ export const columns: Columns = {
     domainmail: [
         {
             title: "id",
-            dataIndex: "id_domain_mail",
-            key: "id_domain_mail",
+            dataIndex: "idDomainMail",
+            key: "idDomainMail",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -949,8 +949,8 @@ export const columns: Columns = {
     email: [
         {
             title: "id",
-            dataIndex: "id_email",
-            key: "id_email",
+            dataIndex: "idEmail",
+            key: "idEmail",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1053,8 +1053,8 @@ export const columns: Columns = {
     officeequip: [
         {
             title: "id",
-            dataIndex: "id_office_equip",
-            key: "id_office_equip",
+            dataIndex: "idOfficeEquip",
+            key: "idOfficeEquip",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1224,8 +1224,8 @@ export const columns: Columns = {
     vendor: [
         {
             title: "id",
-            dataIndex: "id_vendor",
-            key: "id_vendor",
+            dataIndex: "idVendor",
+            key: "idVendor",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1308,8 +1308,8 @@ export const columns: Columns = {
     officeequiptypes: [
         {
             title: "id",
-            dataIndex: "id_office_equip_types",
-            key: "id_office_equip_types",
+            dataIndex: "idOfficeEquipTypes",
+            key: "idOfficeEquipTypes",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1392,8 +1392,8 @@ export const columns: Columns = {
     pass: [
         {
             title: "id",
-            dataIndex: "id_pass",
-            key: "id_pass",
+            dataIndex: "idPass",
+            key: "idPass",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1468,8 +1468,8 @@ export const columns: Columns = {
     wsuser: [
         {
             title: "id",
-            dataIndex: "id_ws_user",
-            key: "id_ws_user",
+            dataIndex: "idWsUser",
+            key: "idWsUser",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1745,8 +1745,8 @@ export const columns: Columns = {
     wsgroup: [
         {
             title: "id",
-            dataIndex: "id_ws_group",
-            key: "id_ws_group",
+            dataIndex: "idWsGroup",
+            key: "idWsGroup",
             dataType: "string",
             sorter: true,
             primary: true,
@@ -1823,8 +1823,8 @@ export const columns: Columns = {
 
     allowedip: [
         {
-            title: "id_allowed_ip",
-            dataIndex: "id_allowed_ip",
+            title: "idAllowedIp",
+            dataIndex: "idAllowedIp",
             key: "id_allowed_ip",
             dataType: "string",
             sorter: true,

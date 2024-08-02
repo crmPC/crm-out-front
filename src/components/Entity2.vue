@@ -32,7 +32,7 @@
     ]);
 
     const models = sub ? getFkModels(modelType, payload) : [];
-    // console.log(models);
+    console.log("models: "+ models);
     const emit = defineEmits(["reload"]);
 
     function check(payload: ObjectT, modelName: string) {

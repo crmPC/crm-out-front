@@ -29,7 +29,7 @@
         // isShowEntity.value = false;
         // console.log("update ref");
         const res = await getEntity(payload, props.modelType);
-        // console.log("update ref DATA", res.data);
+        console.log("update ref DATA", res.data);
         payloadRef.value = res.data;
         isShowEntity.value = true;
     }

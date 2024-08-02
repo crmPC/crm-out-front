@@ -16,7 +16,7 @@
     const id = ref(query.id);
 
     async function getEntity() {
-        // console.log("getEntity");
+        console.log("getEntity");
         isLoaded.value = false;
         const res = await ax.get<ApiResponse<any>>(modelType.value, {
             params: {
@@ -26,8 +26,8 @@
         isLoaded.value = true;
 
         console.log("entityRef__", res.data);
-        entityRef.value = res.data;
-        // console.log("get data", res.data);
+        entityRef.value = res.data.data;
+        console.log("get data", res.data.data);
     }
     onMounted(() => {
         emitter.on("UPDATE_CURRENT", () => {

@@ -256,7 +256,7 @@ export const useGetStore = defineStore({
             }).then((result) => {
                 if (result.data) {
                     this.newModal.record[this.newModal.currentFkCol.fkTableName as string] =
-                        result.data;
+                        result.data.data;
                 }
             });
 

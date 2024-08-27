@@ -1487,7 +1487,7 @@ export const columns: Columns = {
         },
         {
             title: "Дата рождения",
-            dataIndex: "dob ",
+            dataIndex: "dob",
             key: "dob",
             dataType: "date",
             showOnAdd: true,

@@ -1486,6 +1486,15 @@ export const columns: Columns = {
             editable: true,
         },
         {
+            title: "Логин",
+            dataIndex: "login",
+            key: "login",
+            dataType: "string",
+            showOnAdd: true,
+            sorter: true,
+            editable: true,
+        },
+        {
             title: "Дата рождения",
             dataIndex: "dob",
             key: "dob",
@@ -1639,15 +1648,6 @@ export const columns: Columns = {
         //     showOnAdd: false,
         //     sorter: true,
         // },
-        {
-            title: "name",
-            dataIndex: "name",
-            key: "name",
-            dataType: "string",
-            editable: false,
-            showOnAdd: false,
-            sorter: true,
-        },
         // {
         //     title: "sn",
         //     dataIndex: "sn",

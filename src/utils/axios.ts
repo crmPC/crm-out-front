@@ -24,7 +24,7 @@ ax.interceptors.request.use(
         const authStore = useAuthStore();
         const { token } = authStore;
         if (token) {
-            config.headers.Authorization = `Bearer ${token}`;
+            config.headers.Authorization = `${token}`;
         }
         return config;
     },

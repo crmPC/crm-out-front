@@ -76,8 +76,8 @@ export const columns: Columns = {
         },
         {
             title: "Роль",
-            dataIndex: "user_role",
-            key: "user_role",
+            dataIndex: "userRole",
+            key: "userRole",
             dataType: "enum",
             showOnAdd: true,
             enum: ["admin", "worker", "not_activated"],
@@ -1816,7 +1816,7 @@ export const columns: Columns = {
         {
             title: "idAllowedIp",
             dataIndex: "idAllowedIp",
-            key: "id_allowed_ip",
+            key: "idAllowedIp",
             dataType: "string",
             sorter: true,
             primary: true,

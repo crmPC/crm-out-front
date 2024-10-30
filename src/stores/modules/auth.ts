@@ -11,14 +11,14 @@ export interface AppStoreType {
 }
 
 export interface UserWithoutPasswordAndBanreason {
-    id_user: number;
+    idUser: number;
     name: string | null;
     surname: string | null;
     patronymic: string | null;
     dob: string | Date | null;
     login: string;
     banned: boolean;
-    user_role: null | string;
+    userRole: null | string;
 }
 
 interface AuthDataFromServer {

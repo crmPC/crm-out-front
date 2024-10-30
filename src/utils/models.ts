@@ -17,7 +17,7 @@ export interface User {
 
     person: Person;
 
-    user_role: UserRole;
+    userRole: UserRole;
 }
 
 export enum UserRole {

@@ -26,8 +26,8 @@ export interface QueryParamsCurrent extends LocationQuery {
 
 export function getHandBook() {
     const authStore = useAuthStore();
-    const exclude = ["Админы"]; //"Админы", "AD Домены","IP адреса"
-    if (authStore.data?.user_role === "admin") {
+    const exclude = ["AD Домены"]; //"Админы", "AD Домены","IP адреса"
+    if (authStore.data?.userRole === "admin") {
         return handBook;
     } else {
         return handBook.filter((handBook) => !exclude.includes(handBook.name));

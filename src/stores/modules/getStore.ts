@@ -14,7 +14,7 @@ import { emitter } from "@/main";
 import { useGetStoreFk } from "@/stores/modules/getStoreFk";
 
 export interface User {
-    id_user: number;
+    idUser: number;
     login: string;
     password: string;
     banned: boolean;
@@ -473,11 +473,11 @@ export const useGetStore = defineStore({
         },
         userBan(record: User, reason: string) {
             console.log({
-                id_user: Number(record.id_user),
+                idUser: Number(record.idUser),
                 banReason: reason,
             });
             ax.put("user/ban", {
-                id_user: Number(record.id_user),
+                idUser: Number(record.idUser),
                 banReason: reason,
             })
                 .then((res) => {
